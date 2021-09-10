@@ -1,0 +1,1 @@
+NodeJS backend hosted on AWS to provide and API for 3D asset storage and retrieval.

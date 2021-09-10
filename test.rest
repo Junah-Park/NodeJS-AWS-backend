@@ -1,0 +1,31 @@
+POST http://localhost:3003/api/blogs
+content-type: application/json
+
+{
+    "title": "More Test Blog",
+    "author": "Junah Park",
+    "url": "www.github.com",
+    "likes": 84
+}
+###
+GET  http://localhost:3003/api/blogs
+###
+PUT http://localhost:3003/api/blogs/6136a70f7517b1daffe5edd5
+content-type: application/json
+
+{
+    "title": "More Test Blog",
+    "author": "Junah Park",
+    "url": "www.github.com",
+    "likes": 646
+}
+###
+GET  http://localhost:3003/api/users
+###
+POST http://localhost:3003/api/users
+content-type: application/json
+
+{
+  username: "junah",
+  password: "password"
+}
